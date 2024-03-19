@@ -1,2 +1,4 @@
-# web-340
-Repository for my Web 340 class
+# WEB 340 Node.js
+## Contributors
+* Professor Richard Krasso 
+* Sheldon Skaggs
