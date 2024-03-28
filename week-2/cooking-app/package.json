@@ -1,0 +1,13 @@
+{
+  "name": "cooking-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node tester.js",
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "Sheldon Skaggs",
+  "license": "ISC"
+}

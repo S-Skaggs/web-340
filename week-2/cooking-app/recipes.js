@@ -1,23 +1,38 @@
 /**
- * Author:
- * Date:
- * File Name:
- * Description:
+ * Author: Sheldon Skaggs
+ * Date: 3/28/2024
+ * File Name: recipes.js
+ * Description: Javascript file to be used for recipe related functions
 */
 
 // Define the createRecipe function
 function createRecipe(ingredients) {
-  // TODO: Implement this function
+  // Declare variable to hold formatted string to return
+  let neededIngredients = "Recipe created with ingredients: ";
+
+  // Add ingredient list to the neededIngredients string
+  for(let ingredient of ingredients) {
+    neededIngredients += `${ingredient}, `;
+  }
+
+  return neededIngredients.slice(0, -2);
 }
 
 // Define the setTimer function
 function setTimer(minutes) {
-  // TODO: Implement this function
+  // Return instructions for timer
+  return `Timer set for ${minutes} minutes`;
 }
 
 // Define the quit function
 function quit() {
-  // TODO: Implement this function
+  // Confirm quitting program
+  return "Program exited";
 }
 
-// TODO: Export the functions
+// Export functions for recipes module
+module.exports = {
+  createRecipe: createRecipe,
+  setTimer: setTimer,
+  quit: quit
+};
