@@ -1,0 +1,12 @@
+{
+  "name": "account-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/bank-account-spec.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
