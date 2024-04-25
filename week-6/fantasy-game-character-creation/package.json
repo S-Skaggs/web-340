@@ -6,8 +6,13 @@
   "directories": {
     "test": "test"
   },
+  "jest": {
+    "verbose": true,
+    "testMatch": ["**/test/*.js?(x)"]
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/server.js",
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
