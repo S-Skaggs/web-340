@@ -1,6 +1,6 @@
 /*
   Author:     Sheldon Skaggs
-  Date:       5/13/2024
+  Date:       5/15/2024
   File Name:  trivia-game.spec.js
 */
 "use strict";

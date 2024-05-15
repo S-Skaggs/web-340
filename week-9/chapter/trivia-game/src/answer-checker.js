@@ -1,6 +1,6 @@
 /*
   Author:     Sheldon Skaggs
-  Date:       5/13/2024
+  Date:       5/15/2024
   File Name:  answer-checker.js
 */
 "use strict";
